@@ -1,0 +1,11 @@
+djangorestframework
+djangorestframework-simplejwt
+psycopg2-binary
+gunicorn
+django-environ
+Pillow
+channels
+channels_redis
+channels[daphne]
+django-redis
+jsonpickle
