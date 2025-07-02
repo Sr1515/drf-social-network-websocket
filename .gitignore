@@ -31,7 +31,6 @@ media/
 .environment/
 env/
 image/
-static/
 
 .pytest_cache/
 
