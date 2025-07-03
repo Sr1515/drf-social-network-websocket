@@ -49,5 +49,8 @@ ENV.bak/
 
 # environment variables
 
+!*.env.postgres.example
+!*.env.django.example
+
 .environment/.env.postgres
 .environment/.env.django
