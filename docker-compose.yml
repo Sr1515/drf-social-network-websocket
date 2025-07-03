@@ -9,7 +9,7 @@ services:
     container_name: postgres_db
     hostname: postgres_db
     env_file:
-      - ./.environment/.postgres
+      - path: ./.environment/.env.postgres
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -29,6 +29,6 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - ./.environment/.django
+      - path: ./.environment/.env.django
 volumes:
   postgres_data:

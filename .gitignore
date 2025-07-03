@@ -28,7 +28,6 @@ db.sqlite3-journal
 
 media/
 
-.environment/
 env/
 image/
 
@@ -47,3 +46,8 @@ venv/
 venv.bak/
 ENV/
 ENV.bak/
+
+# environment variables
+
+.environment/.env.postgres
+.environment/.env.django
